@@ -1,0 +1,39 @@
+##业务场景
+    spring boot + mybatis后台管理系统框架；
+    layUI前端界面；
+    shiro权限控制，ehCache缓存；
+
+##开发背景
+    maven ：3.3.3
+    JDK ： 1.8
+    Intellij IDEA : 2017.2.5 开发工具
+    spring boot ：1.5.9.RELEASE
+    mybatis 3.4.5 ：dao层框架
+    pageHelper : 5.1.2
+    httpClient : 4.5.3
+    layui 2.2.3 :前端框架
+    shiro 1.4.0 ：权限控制框架
+    druid 1.1.5 ：druid连接池，监控数据库性能，记录SQL执行日志
+    thymeleaf ：2.1.4.RELEASE，thymeleaf前端html页面模版
+    log4j2 2.7 ：日志框架
+    EHCache : 2.5.0
+    ztree : 3.5.31
+
+##整合shiro权限控制：
+    Apache Shiro是一个功能强大、灵活的，开源的安全框架。它可以干净利落地处理身份验证、授权、企业会话管理和加密。
+
+    Shiro能做什么呢？
+        验证用户身份
+        用户访问权限控制，比如：1、判断用户是否分配了一定的安全角色。2、判断用户是否被授予完成某个操作的权限
+        在非 web 或 EJB 容器的环境下可以任意使用Session API
+        可以响应认证、访问控制，或者 Session 生命周期中发生的事件
+        可将一个或以上用户安全数据源数据组合成一个复合的用户 "view"(视图)
+        支持单点登录(SSO)功能
+        支持提供“Remember Me”服务，获取用户关联信息而无需登录
+测试时页面密码：654321
+参考文章：https://blog.51cto.com/wyait/2082803
+项目源码：（包含数据库源码）
+github源码: https://github.com/wyait/manage.git
+
+wyait-common工具项目，源码地址 ：
+github：https://github.com/wyait/project.git
